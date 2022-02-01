@@ -1,5 +1,5 @@
 import { sum } from "./calc";
 
-test (' Adding 2 + 3 should give me 5', ( ) => {
-    expect(sum(2, 3)).toBe(10);
+test (' Adding 5 + 5 should give me 10', ( ) => {
+    expect(sum(5, 5)).toBe(10);
 })
